@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+
+.menu #contact {
+  color: darkred;
+}
+
+.Contact {
+  color: white;
+  margin: 15px 0;   
+  font-weight: 700px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.Message {
+  color: white;
+  opacity: 0.75;
+  font-size: 15px;    
+  font-weight: 600px;
+  padding-top: 10px;
+}
+
+.FormWrapper {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 15px;
+  width: 650px;
+}
+.Container {
+  display: flex;
+  padding: 100px;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../images/Ferrari.png) no-repeat center/cover;
+}
+
+.Container .FormWrapper input {
+  outline: none;
+  border: none;
+  font-size: 15px;
+  padding-left: 10px;
+  height: 25px;
+  background: none;
+  outline: none;
+  margin-bottom: 15px;
+  margin-right: 6px;
+  border-bottom: 3px solid darkred;
+  text-align: center;
+  color: white;
+  caret-color: white;
+}
+
+.FormWrapper input::placeholder
+.FormWrapper textarea::placeholder { 
+  color: white;
+  opacity: 0.85;
+}
+
+.FormWrapper input:focus::placeholder
+.FormWrapper textarea:focus::placeholder {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.FormWrapper textarea {
+  width: 100%;
+  height: 120px;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.15);
+  border: 2px solid darkred;
+  border-radius: 8px;
+  color: white;
+  resize: vertical;
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+#button {
+  display: block;
+  margin-top: 15px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-align: center;
+}
+
+#button:hover {
+  background-color: darkred;
+}
+
+.CardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #000 0%, #000 50%, #8b0000 100%);
+  gap: 50px;
+}
+
+.card1 {
+  min-height: 450px;
+  padding: 20px;
+  border-radius: 36px;
+  border: 2px solid black;
+  box-shadow: 0 0 10px 4px rgba(139, 0, 0, 0.2);
+  width: 30%;
+  background-color: black;
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 50px;
+  transition: 0.7s ease;
+}
+
+.card1:hover {
+  transform: scale(1.04);
+}
+
+.card1 .icon {
+  color: white;
+  font-size: 70px;
+  padding-top: 20px;
+}
+
+.card1 .content h4 {
+  color: white;
+  font-size: 30px;
+  padding-top: 15px;
+}
+
+.card1 .content p {
+  color: white;
+  font-size: 15px;
+  padding-top: 55px;
+}
+.socialicons i {
+  color: white;
+  font-size: 30px;
+  margin: 30px 15px;
+  transition: 0.3s ease;
+}
+
+.socialicons a:hover i {
+  color: darkred;
+}
+
+
+

@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/Light-On.jpg) no-repeat center center/cover;
+  background-size: cover;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110px;
+  padding: 15px;
+}
+
+.loginPage {
+  width: 35%;
+  margin: auto;
+  padding: 50px 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.loginForm{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 0px;
+}
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 0px;
+  font-size: 32px;
+  color: darkred;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #444;
+  border-radius: 5px;
+  background-color: #222;
+  color: #fff;
+  transition: all 0.3s;
+}
+
+input:focus {
+  border: 1px solid darkred;
+  background-color: #333;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: darkred;
+  color: white;
+  border: none;
+  border-radius: 9px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #a51d1de1;
+}
+
+a {
+  color: darkred;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin-top: 6px;
+  font-size: 14px;
+  color: darkred;
+  text-align:start;
+}
+
+
+p#loginMsg{
+  text-align: center;
+  color: red;
+  font-size: 18px;
+}
+

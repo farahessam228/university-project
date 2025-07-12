@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+
+                                                /*NAVBAR*/
+.head {
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+nav .menu a {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  margin-left: 30px;
+  position: relative;
+}
+
+header nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+
+header nav .logo {
+  width: 150px;
+}
+
+nav .menu a::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: darkred;
+  transition: 0.4s;
+}
+
+nav .menu a:hover::after {
+  width: 100%;
+}
+
+.social a i {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 15px;
+}
+.social a:hover .fa-facebook-f {
+  color: #1877f2;
+  transform: scale3d(1.3, 1.3, 1.3);
+}
+.social a:hover .fa-twitter {
+  color: #1da1f2;
+  transform: scale3d(1.3, 1.3, 1.3);
+}
+.social a:hover .fa-instagram {
+  color: #e1306c;
+  transform: scale3d(1.3, 1.3, 1.3);
+}
+
+.scrolled {
+  background-color: #fff;
+}
+
+.scrolled .menu a
+{
+  color: black;
+}
+
+.scrolled .social a i {
+  color: black;
+}
+
+/*****************************************************************************************************************/
+
+                                               /*FOOTER*/
+
+.foot1{
+  background-color: #333;
+  padding: 30px;
+}
+
+.footcontainer{
+  margin: auto;
+  width: 80%;
+  display: flex;
+}
+
+.foot1 ul{
+  list-style-type: none;
+}
+
+.foot1 ul a{
+  color: #fff;
+  display: inline-block;
+  padding-bottom: 12px;
+  font-size: 20px;
+}
+
+.foot1 a:hover{
+  color: #4d4d4d;
+}
+
+.subscribe{
+  width: 50%;
+  
+}
+.subscribe h1{
+  font-size: 50px;
+  padding-bottom: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #bfbfbf;
+}
+
+.subscribe h3{
+  font-size: 25px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.subscribe input{
+  padding: 12px ;
+  width: 50%;
+}
+
+.subscribe button{
+  padding: 12px;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: darkred;
+  color: #fff;
+  border: 2px solid transparent;
+}
+
+.subscribe button:hover{
+  background-color:  #c41530;
+}
+
+.bars{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.bars .main{
+  width: 50%;
+  padding-top: 55px;
+  display: flex;
+  justify-content: center;
+}
+
+.bars .explore{
+  width: 50%;
+  display: flex; 
+  justify-content: center;
+}
+
+.bars .explore h4{
+  padding-bottom: 15px;
+  font-size: 30px;
+  color: #bfbfbf;
+}
+
+.foot2{
+  text-align: center;
+  background-color:#1a1a1a  ;
+  padding: 30px;
+}
+
+.foot2 img
+{
+  width: 200px;
+}
+
+.foot2 > p {
+  padding-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #bfbfbf;
+}
+
+.foot2 .social{
+  padding-bottom: 15px;
+}
+
+.foot2 .social i{
+  margin-left: 0px;
+}
+
+.foot2 i.fa-twitter {
+  margin: 0 15px;
+}
+
+.last{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 2px solid #bfbfbf ;
+}
+
+.policy{
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+}
+
+.policy #Privacy{
+  font-size: 12px;
+  font-weight: bold;
+  color:#bfbfbf;
+  padding-bottom: 15px;
+
+}
+
+.policy #Privacy:hover,.top a:hover{
+  color: #333;
+}
+
+.policy #Copyright{
+  font-size: 10px;
+  color: #bfbfbf;
+}
+
+.top a{
+  color:#bfbfbf;
+}
+

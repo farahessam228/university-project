@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+.logo img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 110px;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #fff;
+}
+
+h2 {
+  font-size: 30px;
+  color: darkred;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 120vh;
+  background-image: url(../images/Light-Off.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.RegisterForm {
+  margin: auto;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.fn {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.ln {
+  display: inline-block;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid #444;
+  border-radius: 5px;
+  background-color: #222;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: 2px solid transparent;
+  border-radius: 30px;
+  background-color: darkred;
+  cursor: pointer;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #a51d1de1;
+}
+
+a {
+  color: darkred;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 14px;
+  color: darkred;
+  text-align: start;
+}
+
+p#RegisterMsg {
+  text-align: center;
+  font-size: 18px;
+  color: red;
+}

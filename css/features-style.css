@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  scroll-behavior: smooth;
+  color: #fff;
+}
+
+body{
+    background: linear-gradient(to right, #000 0%, #000 50%, #8b0000 100%);
+}
+
+.menu #features {
+  color: darkred;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.header {
+  margin-top: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+.header h3 {
+  color: rgb(173, 17, 0);
+  margin: 5px 10px;
+  font-size: 26px;
+}
+
+.header h4 {
+  margin: 5px 10px;
+  font-size: 33px;
+}
+
+.header p{
+  margin: 5px 10px;
+  font-size: 20px;
+}
+
+.car {
+  border-bottom: 2px solid;
+}
+
+.car h1 {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.car h2 {
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+
+.car i{
+    color: darkred;
+}
+
+.all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0;
+}
+
+.features {
+  width: 40%;
+}
+
+.features p {
+  padding: 5px;
+  font-size: 25px;
+}
+
+.features span{
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.text {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.video {
+  width: 40%;
+}
+
+.video iframe {
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 20px;
+}
+
+.buy {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.buy button {
+  padding: 12px;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: darkred;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+
+.buy button:hover {
+  background-color: #c41530;
+}
+
+.car#last{
+    border: none;
+}

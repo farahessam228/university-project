@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+.menu #home {
+  color: darkred;
+}
+
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/Light-Off.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .text {
+  width: 90%;
+  margin: auto;
+}
+
+h4 {
+  font-size: 40px;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 65px;
+  color: #fff;
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+span {
+  color: darkred;
+  font-size: 80px;
+  font-weight: bold;
+}
+
+p {
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.btn {
+  background: darkred;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: 2px solid darkred;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: transparent;
+}
+
+#search-icon {
+  margin-left: 50px;
+}

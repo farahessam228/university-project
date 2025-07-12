@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CarRow - Log In</title>
+    <link rel="stylesheet" href="../css/login-style.css" />
+    <link rel="icon" href="../images/Logo.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="logo">
+      <a href="../index.html"
+        ><img src="../images/Logo2.png" alt="CarRow logo"
+      /></a>
+    </div>
+    <div class="loginPage">
+      <h1>CarRow</h1>
+      <h2>Login</h2>
+      <div class="loginForm">
+        <div>
+          <input type="email" placeholder="Email" name="email" id="email" />
+          <p id="emailMsg"></p>
+        </div>
+        <div>
+          <input
+            type="password"
+            placeholder="Password"
+            name="password"
+            id="password"
+          />
+          <p id="passwordMsg"></p>
+        </div>
+        <button id="loginSubmit" type="submit" onclick="onSubmit()">Login</button>
+      </div>
+      <p id="loginMsg"></p>
+      <a href="register.html">New Account? Register</a>
+    </div>
+
+    <script src="../js/login-script.js"></script>
+  </body>
+  <!-- onsubmit="loginUser(event)" -->
+</html>

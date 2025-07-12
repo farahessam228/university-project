@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/register-style.css">
+    <link rel="icon" href="../images/Logo.ico" type="image/x-icon">
+    
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="logo">
+           <a href="../index.html"><img src="../images/Logo2.png" alt="CarRow logo"></a> 
+        </div>
+
+        <div class="RegisterForm">
+        <h1>CarRow</h1>
+        <h2>Register</h2>
+        <div class="fn">
+            <input type="text" placeholder="First Name" name="firstname" id="firstname">
+            <p id="firstnameMsg"></p>
+        </div>
+        <div class="ln">
+            <input type="text"  placeholder="Last Name" name="lastname" id="lastname">
+            <p id="secondnameMsg"></p>
+        </div>
+        <div class="email">
+            <input type="email"  placeholder="Email" name="email" id="email">
+            <p id="emailMsg"></p>
+         </div>
+        <div class="num">
+            <input type="tel"  placeholder="Mobile Number" name="number" id="number">
+            <p id="numberMsg"></p>
+        </div>
+        <div class="pass">
+            <input type="password"  placeholder="Password" name="password" id="password">
+            <p id="passwordMsg"></p>
+        </div>
+        <div class="confirm password">
+            <input type="password"  placeholder="Confirm Password" name="confirmpasssword" id="confirmpass">
+            <p id="confirmpassMsg"></p>
+        </div>
+        <div class="submit">
+            <button  id="RegisterSubmit" type="submit" onclick="onSubmit()">Sign Up</button>
+            <p id="RegisterMsg"></p>
+        </div>
+        <a href="login.html">Already Have An Account? Login</a>
+        </div>
+    </div>
+    <script src="../js/register-script.js"></script>
+</body>
+</html>
+

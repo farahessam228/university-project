@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Alegreya";
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+.about p {
+  font-family: "Alegreya Sans";
+  font-size: 18px;
+}
+
+.menu #about,
+span {
+  color: darkred;
+}
+
+.container {
+  margin: 100px auto;
+  width: 90%;
+}
+
+.container h1 {
+  font-size: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.all {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.us,
+.img2 {
+  width: 24%;
+}
+
+.img1 {
+  width: 48%;
+}
+
+.us h4 {
+  padding-bottom: 30px;
+  font-size: 25px;
+}
+
+.us p{
+    font-size: 20px;
+}
+
+.about img {
+  width: 100%;
+  border: 2px solid transparent;
+  border-radius: 30px;
+}
+
+.img2 img {
+  height: 50%;
+}
+
+.img2 h4 {
+  font-size: 45px;
+  text-align: center;
+}
+
+.container2 {
+  margin: auto;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.container2 p {
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.service,
+.text {
+  width: 40%;
+}
+
+.service h2 {
+  font-size: 70px;
+}
+
+.text h3 {
+  font-size: 30px;
+}
+
+.text #last {
+  padding-bottom: 0;
+}
+
+nav .menu a {
+  color: black;
+}
+
+nav .social a i {
+  color: black;
+}
+.scrolled {
+  background-color: black;
+}
+
+.scrolled .menu a {
+  color: #fff;
+}
+
+.scrolled .social a i {
+  color: #fff;
+}
